@@ -1,0 +1,43 @@
+.app-header{
+    font-size: 18px;
+    .nav-item,.nav-link{
+        color: #fff;
+    }
+}
+.file-upload {
+    display: flex;
+    // flex-direction: column;
+    align-items: center;
+    .dropzone {
+        border: 2px dashed #3498db;
+        border-radius: 4px;
+        cursor: pointer;
+        padding: 20px;
+        text-align: center;
+      }
+      .upload-icon {
+        font-size: 40px;
+        margin-bottom: 10px;
+      }
+  }
+  .file-list{
+
+    .image-uploaded{
+    height: 50px;
+    max-width:60px;
+      }
+      .table-row td{
+        min-height: 100%;
+      }
+  }
+  .profile-card{
+    width: 20rem;
+    border: 1px solid #3498db;
+    box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  
+
+  
+
+  
